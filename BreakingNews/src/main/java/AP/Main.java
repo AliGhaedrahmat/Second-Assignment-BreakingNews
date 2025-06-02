@@ -8,6 +8,5 @@ public class Main {
         Console.print("-- News API -- ");
         String apiKey =  "fa90611cb9894bebbf02887180d6e762";
         Infrastructure infrastructure = new Infrastructure(apiKey);
-        System.out.println("Fetching news...");
     }
 }
